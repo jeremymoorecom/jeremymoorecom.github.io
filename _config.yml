@@ -1,6 +1,7 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
+# baseurl: "/Type-on-Strap"
+baseurl: ""
+url: "http://www.jeremy-moore.com"
 title: Type on Strap # site's title
 description: "A website with blog posts and pages" # used by search engines
 
@@ -8,43 +9,43 @@ description: "A website with blog posts and pages" # used by search engines
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: Jeremy Moore # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+     Personal tech blog covering web development and linux tips by Jeremy Moore
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  #  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: false  # Make sure you created a feed.xml with feed.xml layout
+  email_address: jeremy2mooreATgmailDOTcom # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: jeremymoorecom
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "jeremymoorecom"
   google_plus:
   instagram:
   keybase:
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/jeremymoore1/ # Full URL
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: # "twitter username"
+  twitter: jeremymoorecom # "twitter username"
   vimeo:
   wordpress:
   youtube:
-  
+
   # Sharing options
   share_buttons:
     facebook: true
@@ -54,23 +55,23 @@ theme_settings:
     pinterest:
     pocket:
     reddit: true
-    linkedin:
+    linkedin: true
     wordpress:
     email: true
 
-  # Scripts / Features 
+  # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: jeremy2moore
   katex: true # Enable if using math markup
-  
+
   special_page:
-    search: 
+    search:
       icon: "search" # Assuming page link and icon are the same
       enabled: true
     tags:
       icon: "tags"
       enabled: true
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -92,8 +93,8 @@ theme_settings:
 
   # Post navigation
   post_navigation: true
-  
-  
+
+
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
